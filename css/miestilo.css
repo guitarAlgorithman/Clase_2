@@ -1,0 +1,82 @@
+/*Comentario
+
+Normalment es buena practica coloca run indice de n los css
+
+Indice
+
+0.- General
+1.- Definicion de estilos de tags
+2.- definicion de clases
+3.- definiciones de ids
+*/
+
+/* General */
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Definicion de los tags */
+
+h1{
+    color:blue;
+}
+h2{
+    color: red;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    font-weight: 400;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+
+/*Definicion de estilos de clases*/
+
+.miTitulo2{
+    border-width: 2px;
+    color: green;
+    border-style: double;
+
+}
+
+/* 
+Defincion de los ids */
+
+#destacado{
+    font-size: xx-large;
+
+}
+
+@media screen and (min-width: 700px){
+    .miTitulo2{
+        color:red;
+    }
+}
+
+.btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: cadetblue;
+    border-color: cadetblue;
+    color: white;
+}
+
+
+.btn:hover{
+    background-color: red;
+}
+
+.caja:focus{
+    font-size: xx-large;
+}
